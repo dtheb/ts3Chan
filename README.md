@@ -30,7 +30,7 @@ Free opensource feel free to use, edit and share but don't forget to give credit
 and it should work :D
 
 ###--- important info ---
-- Default admin pass: ```admin``` and admin CP link is ```/public/admin``` (change it in settings)
+- Default admin pass: ```admin``` (change it in settings) and admin CP link is ```/public/admin```
 - If something didn't work check ```app/logs/errors.log```
 - To change language go to ```app/lang``` copy the ```en``` folder and rename it then edit the language files as you wish, when done edit set your new language in the ```General.php``` file in the configs folder ```app/config```
 
