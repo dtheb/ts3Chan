@@ -3,7 +3,7 @@ Ts3Chan (Beta)
 PHP Web based system for Teamspeak 3 servers to Request channels on the server
 
 ###Features:
-- Admin CP for accepting/rejecting requests.
+- Admin CP for accepting/rejecting requests. (with the abilty to sort, search and requests per page)
 - Limit requests per email.
 - Auto channel create.
 - Create channels anywhere with base OrderID. (not only in the bottom of channels list)
@@ -25,7 +25,7 @@ PHP Web based system for Teamspeak 3 servers to Request channels on the server
   so ```RewriteBase /ts3chan_v2/public/``` to ```RewriteBase /requestchannel/public/```
 - Create the database and import the ```ts3chan.sql```
 
-and it should work fine :D
+and it should work :D
 
 ###--- important info ---
 - Default admin pass: ```admin``` and admin CP link is ```/public/admin``` (change it in settings)
