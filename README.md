@@ -1,6 +1,17 @@
 Ts3Chan (Beta)
 =======
+PHP Web based system for Teamspeak 3 servers to Request channels on the server
 
+###Features:
+- Admin CP for accepting/rejecting requests.
+- Limit requests per email.
+- Auto channel create.
+- Create channels anywhere with base OrderID. (not only in the bottom of channels list)
+- Create channels with custom permissions. 
+- Auto email on accept/deny the request with a custom message.
+- Email the channel admin token on accept.
+- Basic email templating. (also supports custom message)
+- Language/translation support with clean seperated language files.
 
 
 ###Installation:
