@@ -55,10 +55,7 @@ INSERT INTO `auths`(`id`,`user`,`pass`) VALUES ( '1', 'admin', '$2y$10$L.RgVdYfU
 
 
 -- Dump data of "requests" ---------------------------------
-INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '92', 'ahmed.apr27@gmail.com4', 'Ahmed', 'Test1', '', '2', 'BAD', '2014-10-27 21:26:47', '2014-10-27 21:37:48' );
-INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '93', 'ahmed.apr27@gmail.com2', 'Ahmed2', 'Test2', '', '1', 'Cuz i can :D', '2014-10-27 21:27:07', '2014-10-29 20:50:39' );
-INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '94', 'ahmed.apr27@gmail.com', 'Ahmed', 'Ahmed\'s channal', '', '2', 'Cuz i can :D', '2014-10-28 17:52:02', '2014-10-29 20:53:12' );
-INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '95', 'ahmed.apr27@gmail.com', 'Ahmed', 'test', '', '0', 'Cuz i can muhahaha!!!', '2014-10-28 17:52:18', '2014-10-29 18:45:06' );
+INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '92', 'email@example.com', 'Ahmed', 'Test1', '', '0', '', '2014-10-27 21:26:47', '2014-10-27 21:37:48' );
 -- ---------------------------------------------------------
 
 
