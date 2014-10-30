@@ -1,5 +1,7 @@
-ts3Chan
+Ts3Chan (Beta)
 =======
+
+
 
 ###Installation:
 - Import the dependencies 
