@@ -1,0 +1,6 @@
+vendor
+composer.lock
+tsconfig_dev.php
+email_dev.php
+/app/cache/*
+/app/logs/*

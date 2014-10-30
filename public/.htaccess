@@ -1,0 +1,12 @@
+Options -MultiViews
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /ts3chan_v2/public/
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
