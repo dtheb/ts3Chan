@@ -12,7 +12,7 @@ class Email
 	function __construct() {
 		try {
 			// $this->cfg = Tools::getConfig('email_dev');
-			$this->cfg = Tools::getConfig('emaiL');
+			$this->cfg = Tools::getConfig('email');
 			if ($this->cfg['ssl']) {
 				$transport = Swift_SmtpTransport::newInstance($this->cfg['smtp'], $this->cfg['port'], 'ssl');
 			} else {
