@@ -10,7 +10,7 @@ Free opensource feel free to use, edit and share but don't forget to give credit
 - Auto channel create.
 - Create channels anywhere with base OrderID. (not only in the bottom of channels list)
 - Create channels with custom permissions.  (multi permissions supported)
-- Auto email on accept/deny the request with a custom message. (SMTP
+- Auto email on accept/deny the request with a custom message. (SMTP based)
 - Email the channel admin token on accept.
 - Basic email templating. (also supports custom message)
 - Language/translation support with clean seperated language files.
