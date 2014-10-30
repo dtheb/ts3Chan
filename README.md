@@ -3,8 +3,9 @@ ts3Chan
 
 ###Installation:
 - Import the dependencies 
-```composer update```
+```composer update``` (more info ```www.getcomposer.org```)
 - Check files in ```app/config``` edit the values as you wish.
+- Set the ```app/cache``` & ```app/logs``` folders to writeable ```chmod 777```
 - Edit the ```.htaccess``` in the ```public``` folder
   change it to your new base Example:- 
   link is ```www.site.com/requestchannel/public``` then the base is ```/requestchannel/public/```
