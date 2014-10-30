@@ -14,7 +14,7 @@ ts3Chan
 and it should work fine :D
 
 --- important info ---
-- Default admin pass: ```admin``` (change it in settings)
+- Default admin pass: ```admin``` and admin CP link is ```/public/admin``` (change it in settings)
 - If something didn't work check ```app/logs/errors.log```
 - To change language go to ```app/lang``` copy the ```en``` folder and rename it then edit the language files as you wish, when done edit set your new language in the ```General.php``` file in the configs folder ```app/config```
 
