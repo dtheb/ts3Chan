@@ -36,3 +36,11 @@ and it should work :D
 
 
 THERE WILL BE BUGS :D 
+
+====
+###Credits
+[TS3 PHP Framework](http://forum.teamspeak.com/showthread.php/54132-API-TS3-PHP-Framework)
+[Simple MVC](https://github.com/alexgarrett/simple-mvc)
+[Password compat](https://github.com/ircmaxell/password_compat)
+[Monolog](https://github.com/Seldaek/monolog)
+[SwiftMailer](http://swiftmailer.org)
