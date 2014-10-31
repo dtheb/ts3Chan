@@ -11,6 +11,7 @@ return array(
 	// Email Templates
 	// Client name = %name%
 	// Channel Name = %channame%
+	// Channel Name URL encoded = %channameURL%
 	// Message/Reason = %msg%
 	
 	'msgHeadYes' => "Hello %name%,\n\nWelcome to OurCoolTeamspeakServer, We accepted you request for channel \"%channame%\" 
