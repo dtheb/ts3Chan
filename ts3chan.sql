@@ -16,14 +16,14 @@ DROP TABLE IF EXISTS `auths` CASCADE;
 
 CREATE TABLE `auths` ( 
 	`id` Int( 11 ) UNSIGNED AUTO_INCREMENT NOT NULL, 
-	`user` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL, 
-	`pass` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+	`user` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, 
+	`pass` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
 	 PRIMARY KEY ( `id` )
  )
-CHARACTER SET = latin1
-COLLATE = latin1_swedish_ci
+CHARACTER SET = utf8
+COLLATE = utf8_general_ci
 ENGINE = InnoDB
-AUTO_INCREMENT = 4;
+AUTO_INCREMENT = 2;
 -- ---------------------------------------------------------
 
 
@@ -32,20 +32,20 @@ DROP TABLE IF EXISTS `requests` CASCADE;
 
 CREATE TABLE `requests` ( 
 	`id` Int( 11 ) UNSIGNED AUTO_INCREMENT NOT NULL, 
-	`email` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, 
-	`name` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, 
-	`cname` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, 
-	`note` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, 
+	`email` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, 
+	`name` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, 
+	`cname` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, 
+	`note` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, 
 	`status` TinyInt( 1 ) UNSIGNED NULL, 
-	`reason` VarChar( 255 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL, 
+	`reason` VarChar( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, 
 	`created_at` Timestamp NULL, 
 	`updated_at` Timestamp NULL,
 	 PRIMARY KEY ( `id` )
  )
-CHARACTER SET = latin1
-COLLATE = latin1_swedish_ci
+CHARACTER SET = utf8
+COLLATE = utf8_general_ci
 ENGINE = InnoDB
-AUTO_INCREMENT = 96;
+AUTO_INCREMENT = 94;
 -- ---------------------------------------------------------
 
 
@@ -55,7 +55,7 @@ INSERT INTO `auths`(`id`,`user`,`pass`) VALUES ( '1', 'admin', '$2y$10$L.RgVdYfU
 
 
 -- Dump data of "requests" ---------------------------------
-INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '92', 'email@example.com', 'Ahmed', 'Test1', '', '0', '', '2014-10-27 21:26:47', '2014-10-27 21:37:48' );
+INSERT INTO `requests`(`id`,`email`,`name`,`cname`,`note`,`status`,`reason`,`created_at`,`updated_at`) VALUES ( '92', 'email@example.com', 'Ahmed', 'Test1', 'some test message', '0', NULL, '2014-10-27 21:26:47', '2014-10-27 21:37:48' );
 -- ---------------------------------------------------------
 
 
