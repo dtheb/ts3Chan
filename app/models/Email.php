@@ -31,8 +31,8 @@ class Email
 	public function sendYes($data)
 	{
 		$req = $data['req'];
-		$search = array('%name%', '%channame%', '%token%', '%msg%');
-		$replace = array($req->name, $req->cname, $data['token'], $req->reason);
+		$search = array('%name%', '%channame%', '%channameURL%', '%token%', '%msg%');
+		$replace = array($req->name, $req->cname, rawurlencode($req->cname), $data['token'], $req->reason);
 		$msg = str_replace($search, $replace, $this->cfg['msgHeadYes']);
 		try {
 			$this->message->setTo(array($req->email))->setBody($msg . "\n\n{$this->cfg['msgSig']}");
