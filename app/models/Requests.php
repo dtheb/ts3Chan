@@ -53,5 +53,10 @@ class Requests extends Eloquent
 			return 2;
 		}
 	}
+	
+	public function getCnameAttribute($value)
+	{
+		return htmlspecialchars_decode($value);
+	}
 
 }
