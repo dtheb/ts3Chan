@@ -12,6 +12,7 @@ return array(
 	// Client name = %name%
 	// Channel Name = %channame%
 	// Channel Name URL encoded = %channameURL%
+	// Token URL encoded = %tokenURL%
 	// Message/Reason = %msg%
 	
 	'msgHeadYes' => "Hello %name%,\n\nWelcome to OurCoolTeamspeakServer, We accepted you request for channel \"%channame%\" 
