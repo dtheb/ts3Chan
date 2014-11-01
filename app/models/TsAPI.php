@@ -33,10 +33,11 @@ class TsAPI
 			));
 			// Tools::Log('info', 'Created the channel');
 			// create cpacer and get its ID
-			$last_cid = $cpacer_cid = $this->ts3->channelCreate(array(
+			$cpacer_cid = $this->ts3->channelCreate(array(
 				"channel_name" => "[" . $this->cfg['spacerOper'] . "spacer" . mt_rand(1, 99999) . "]". $this->cfg['spacer'],
 				"channel_flag_permanent" => TRUE,
 				"channel_order" => $top_cid,
+				"channel_maxclients" => 0,
 			)); 
 			// Tools::Log('info', 'Created the spacer');
 			// set permissions (WIP)
