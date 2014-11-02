@@ -4,6 +4,9 @@ PHP Web based system for Teamspeak 3 servers to Request channels on the server.
 
 Free opensource feel free to use, edit and share but don't forget to give credit/linkback and of you added something feel free to pull request :D
 
+####Admin CP preview
+![adminCP](http://i.imgur.com/EWRfBk7.png)
+
 ###Features:
 - Admin CP for accepting/rejecting requests. (with the abilty to sort, search and requests per page)
 - Limit requests per email.
