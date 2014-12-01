@@ -35,7 +35,7 @@ and it should work :D
 ###--- important info ---
 - Default admin pass: ```admin``` (change it in settings) and admin CP link is ```/public/admin```
 - If something didn't work check ```app/logs/errors.log```
-- To change language go to ```app/lang``` copy the ```en``` folder and rename it then edit the language files as you wish, when done edit set your new language in the ```General.php``` file in the configs folder ```app/config```
+- To change language go to ```app/lang``` copy the ```en``` folder and rename it then edit the language files as you wish, when done editing set your new language in the ```General.php``` file in the configs folder ```app/config```
 
 
 THERE WILL BE BUGS :D 
