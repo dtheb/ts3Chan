@@ -2,20 +2,20 @@
 
 return array(
 	// Headings
-	'heading' 		=> 'Settings',
+	'heading' 		=> 'Nastavení',
 	// Nav Links
-	'requests'		=> 'Requests',
-	'history'		=> 'History',
-	'settings'		=> 'Settings',
-	'logout'		=> 'Logout',
+	'requests'		=> 'Žádosti',
+	'history'		=> 'Historie',
+	'settings'		=> 'Nastavení',
+	'logout'		=> 'Odhlásit',
 	// Change Password
-	'oldPass'		=> 'Old Password',
-	'newPass'		=> 'New Password',
-	'newPassAgain'	=> 'Confirm New Password',
-	'change'		=> 'Change',
+	'oldPass'		=> 'Staré heslo',
+	'newPass'		=> 'Nové heslo',
+	'newPassAgain'		=> 'Kontrola nového heslo',
+	'change'		=> 'Změnit',
 	// Alerts
-	'failed'		=> 'Wrong Password!',
-	'fields'		=> 'All fields required!',	
-	'noMatchMsg'	=> 'The new password did not match',
-	'changedMsg'	=> 'Password has been changed!',
+	'failed'		=> 'Špatné heslo!',
+	'fields'		=> 'Všechna pole jsou povinná!',	
+	'noMatchMsg'		=> 'Hesla se neshodují',
+	'changedMsg'		=> 'Heslo bylo změněno',
 	);
