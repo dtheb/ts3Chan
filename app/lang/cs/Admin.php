@@ -2,26 +2,26 @@
 
 return array(
 	// Headings
-	'heading' 		=> 'Pending Requests',
+	'heading' 		=> 'Čekající žádosti',
 	// Nav Links
-	'requests'		=> 'Requests',
-	'history'		=> 'History',
-	'settings'		=> 'Settings',
-	'logout'		=> 'Logout',
+	'requests'		=> 'Žádosti',
+	'history'		=> 'Historie',
+	'settings'		=> 'Nastavení',
+	'logout'		=> 'Odhlásit',
 	// Requests Table
-	'name'			=> 'Name',
-	'channel'		=> 'Channel',
+	'name'			=> 'Jméno',
+	'channel'		=> 'Místnost',
 	'email'			=> 'Email',
-	'note'			=> 'Note',
-	'time'			=> 'Time',
-	'action'		=> 'Action',
+	'note'			=> 'Poznámka',
+	'time'			=> 'Čas',
+	'action'		=> 'Akce',
 	// Options
-	'reason'		=> 'Message/Reason',
-	'withemail'		=> 'Send Email?',
-	'resetbtn'		=> 'Reset to defaults',
+	'reason'		=> 'Zpráva/Důvod',
+	'withemail'		=> 'Odeslat email?',
+	'resetbtn'		=> 'Obnovit hodnoty',
 	// Login
-	'login_Heading'	=> 'Admin Login',
-	'password'		=> 'Password',
-	'login'			=> 'Login',
-	'loginfail'		=> 'Login Failed!'
+	'login_Heading'		=> 'Administrace',
+	'password'		=> 'Heslo',
+	'login'			=> 'Přihlásit',
+	'loginfail'		=> 'Přihlášení selhalo!'
 	);
