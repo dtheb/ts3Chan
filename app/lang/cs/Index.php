@@ -2,20 +2,20 @@
 
 return array(
 	// Headings
-	'heading' 	=> 'Request Your Channel',
+	'heading' 	=> 'Odeslání žádosti',
 	// Request Forum
-	'email'		=> 'Email address',
-	'name'		=> 'Nickname',
-	'cname'		=> 'Channel name',
-	'note'		=> 'Notes',
-	'submit'	=> 'Submit',
+	'email'		=> 'Emailová adres',
+	'name'		=> 'Přezdívka',
+	'cname'		=> 'Název místnosti',
+	'note'		=> 'Poznámka',
+	'submit'	=> 'Odeslat',
 	// Request Form Placeholders
 	'email_ph'	=> 'example@example.com',
-	'name_ph'	=> 'Nickname on TeamSpeak Server ?',
-	'cname_ph'	=> 'Your new channel name ?',
-	'note_ph'	=> 'Extra information or requests ? (Optional)',
+	'name_ph'	=> 'Přezdívka na Teamspeak serveru?',
+	'cname_ph'	=> 'Název Vaší nové místnosti?',
+	'note_ph'	=> 'Poznámka k žádosti? (Nepovinné)',
 	// Alerts
-	'success_a' => '<strong>Request Sent! </strong>Your request has been sent, An admin will review your request ASAP!',
-	'error_field' => '<strong>Error! </strong>Please make sure you filled all the fileds marked in red! <br /> <small>if you keep getting this error please contact the server admin.</small>',
-	'error_limit' => '<strong>Error! </strong>You have reached the requests limit<br /> <small>if you keep getting this error please contact the server admin.</small>',
+	'success_a' => '<strong>Žádost odeslána! </strong>Vaše žádost byla odeslána, admini se ji pokusí vyřešit v co nejkratším čase!',
+	'error_field' => '<strong>Chyba! </strong>Ujistěte se prosím, zda jste vyplnili všechna povinná pole označená červeně<br /> <small>pokud problém přetrvává, kontaktujte admina serveru.</small>',
+	'error_limit' => '<strong>Chyba! </strong>Dosáhli jste maximálního počtu požadavků<br /> <small>pokud problém přetrvává, kontaktujte admina serveru.</small>',
 	);
