@@ -8,7 +8,7 @@ Free opensource feel free to use, edit and share but don't forget to give credit
 ![adminCP](http://i.imgur.com/EWRfBk7.png)
 
 ###Features:
-- Admin CP for accepting/rejecting requests. (with the abilty to sort, search and requests per page)
+- Admin CP for accepting/rejecting requests. (with the ability to sort, search and requests per page)
 - Limit requests per email.
 - Auto channel create.
 - Create channels anywhere with base OrderID. (not only in the bottom of channels list)
