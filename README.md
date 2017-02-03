@@ -1,6 +1,6 @@
 Ts3Chan (Beta)
 =======
-### This Script is too old.. it still works but not maintained/updated.
+### This Script is too old.. it still works but not maintained, updated or supported (soz).
 =======
 PHP Web based system for Teamspeak 3 servers to Request channels on the server.
 
