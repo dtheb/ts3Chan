@@ -1,5 +1,7 @@
 Ts3Chan (Beta)
 =======
+### This Script is too old.. it still works but not maintained/updated.
+=======
 PHP Web based system for Teamspeak 3 servers to Request channels on the server.
 
 Free opensource feel free to use, edit and share but don't forget to give credit/linkback and if you added something feel free to pull request :D
